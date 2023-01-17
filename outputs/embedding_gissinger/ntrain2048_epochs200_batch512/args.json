@@ -1,0 +1,23 @@
+{
+    "exp_dir": "./results/gissinger_results",
+    "exp_name": "gissinger",
+    "training_h5_file": "../data/gissinger/gissinger_training_rk.hdf5",
+    "eval_h5_file": "../data/gissinger/gissinger_valid_rk.hdf5",
+    "n_train": 2048,
+    "n_eval": 64,
+    "stride": 16,
+    "block_size": 16,
+    "batch_size": 512,
+    "epoch_start": 0,
+    "epochs": 200,
+    "lr": 0.001,
+    "seed": 12345,
+    "n_gpu": 1,
+    "plot_freq": 25,
+    "test_freq": 5,
+    "save_steps": 25,
+    "notes": "",
+    "run_dir": "/home/mirksonius/Desktop/seminar_fizika/kod/./results/gissinger_results/embedding_gissinger/ntrain2048_epochs200_batch512",
+    "ckpt_dir": "/home/mirksonius/Desktop/seminar_fizika/kod/./results/gissinger_results/embedding_gissinger/ntrain2048_epochs200_batch512/checkpoints",
+    "plot_dir": "/home/mirksonius/Desktop/seminar_fizika/kod/./results/gissinger_results/embedding_gissinger/ntrain2048_epochs200_batch512/predictions"
+}
